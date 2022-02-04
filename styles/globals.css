@@ -14,5 +14,5 @@
     }
   }
   
-  .hover\:bounceOrig:hover { animation: bounceOrig 1s infinite; }
-  .hover\:bounceNew:hover { animation: bounceNew 1s infinite; }
+.hover\:bounceOrig:hover { animation: bounceOrig 1s infinite; }
+.hover\:bounceNew:hover { animation: bounceNew 1s infinite; }

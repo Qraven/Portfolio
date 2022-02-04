@@ -5,8 +5,8 @@ module.exports = {
   ],
   theme: {
     animation: {
-      fade: 'fadeIn 2s ease-in-out',
-      blink: 'blink 1.5s step-start 0s infinite'
+      fade: 'fadeIn 2s ease-in-out;',
+      blink: 'blink 1.5s step-start 0s infinite;'
     },
 
     // that is actual animation
@@ -30,8 +30,8 @@ module.exports = {
       'red': '#AA3D42'
     },
     textShadow: { // defaults to {}
-      'default': '0 2px 5px rgba(0, 0, 0, 0.5)',
-      'lg': '0 2px 10px rgba(0, 0, 0, 0.5)',
+      'default': '0 2px 5px rgba(0, 0, 0, 0.5);',
+      'lg': '0 2px 10px rgba(0, 0, 0, 0.5);'
     },
     fontFamily: {
       'roboto': ['"Roboto Slab"'],
