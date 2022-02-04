@@ -52,7 +52,7 @@ export default function AboutMe()
               <span className="text-red text-6xl">
                 <a className="ml-20">Hi!<a className="text-footer text-opacity-30">{`;`}</a></a>
                 <br></br>
-                <a className="ml-20">It's a pleasure to meet you!<a className="text-footer text-opacity-30">{`;`}</a></a>
+                <a className="ml-20">It`&#39;`s a pleasure to meet you!<a className="text-footer text-opacity-30">{`;`}</a></a>
                 <br></br>
                 <br></br>
                 <a className="ml-20">My name is Simon and I am<a className="text-footer text-opacity-30">{`;`}</a></a>
@@ -78,7 +78,7 @@ export default function AboutMe()
               <div className="p-6">
                 <a className="m-2">This site was created by Szymon Roman using <b>Tailwind</b> and <b>Next.JS</b></a>
                 <br></br>
-                <a className="m-2">I've used the fonts <b>Roboto Mono</b> and <b>JetBrains Mono</b></a>
+                <a className="m-2">I`&#39;`ve used the fonts <b>Roboto Mono</b> and <b>JetBrains Mono</b></a>
               </div>
               
             </footer>
