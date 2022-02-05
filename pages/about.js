@@ -73,7 +73,7 @@ export default function about()
 
               <section className="w-1/3 h-1/2 float-right absolute bottom-60 right-32 text-justify break-words font-light">
                 <a className="text-pink font-roboto font-regular text-5xl hover:text-opacity-75 hover:cursor-default">
-                  I'm a young and aspiring <b>software developer</b>
+                  I&#39;m a young and aspiring <b>software developer</b>
                   <br></br>
                   (still learning) from Poland! 
                   <br></br>
