@@ -71,8 +71,15 @@ export default function about()
 
               <div className="border-l-4 h-3/4 border-solid border-pink border-opacity-30 float-left absolute left-1/2 bottom-32 rounded-lg"></div>
 
-              <section className="w-1/4 float-right absolute bottom-16 right-52">
-                
+              <section className="w-1/3 h-1/2 float-right absolute bottom-60 right-32 text-justify break-words">
+                <a className="text-pink font-roboto font-regular text-5xl hover:text-opacity-75 hover:cursor-default">
+                  I'm a young and aspiring <b>software developer</b>
+                  <br></br>
+                  (still learning) from Poland! 
+                  <br></br>
+                  <br></br>
+                  My main passion is definetely coding, although in my free time I really enjoy tutoring English to children, aswell as playing video games:)
+                </a>
               </section>
             </span>
 
