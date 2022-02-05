@@ -19,7 +19,7 @@ export default function about()
   
               <div className = 'text-pink font-roboto font-extralight text-5xl w-3/5 float-right overflow-hidden'>
 
-                <Link href='/contact'>
+                <Link href='/Contact'>
                     <div id = "contact" className="float-right mx-4 m-4 drop-shadow-xl hover:font-light hover:cursor-pointer transition-all hover:bounceNew">CONTACT</div>
                   </Link>
 
@@ -31,7 +31,7 @@ export default function about()
                     <div id = "github" className="float-right mx-4 m-4 hover:font-light hover:cursor-pointer hover:bounceNew">GITHUB</div>
                   </Link>
 
-                  <Link href='/skills'>
+                  <Link href='/Skills'>
                     <div id = "skills" className="float-right mx-4 m-4 hover:font-light hover:cursor-pointer hover:bounceNew">SKILLS</div>
                   </Link>
 
