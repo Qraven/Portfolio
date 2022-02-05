@@ -23,12 +23,12 @@ export default function contact()
                   <div id = "contact" className="float-right mx-4 m-4 drop-shadow-xl hover:font-light hover:cursor-pointer transition-all hover:bounceNew">CONTACT</div>
                 </Link>
 
-                <Link href='/cbout'>
+                <Link href='/about'>
                   <div id = "aboutMe" className="float-right mx-4 m-4 drop-shadow-xl hover:font-light hover:cursor-pointer hover:bounceNew">ABOUT ME</div>
                 </Link>
 
                 <Link href='https://github.com/Qraven/'>
-                  <div id = "github" className="float-right mx-4 m-4 hover:font-light hover:cursor-pointer hover:bounceNew">GITHUB</div>
+                  <a target="_blank" className="float-right mx-4 m-4 hover:font-light hover:cursor-pointer hover:bounceNew">GITHUB</a>
                 </Link>
 
                 <Link href='/Skills'>

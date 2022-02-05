@@ -28,7 +28,7 @@ export default function about()
                   </Link>
 
                   <Link href='https://github.com/Qraven/'>
-                    <div id = "github" className="float-right mx-4 m-4 hover:font-light hover:cursor-pointer hover:bounceNew">GITHUB</div>
+                    <a target="_blank" className="float-right mx-4 m-4 hover:font-light hover:cursor-pointer hover:bounceNew">GITHUB</a>
                   </Link>
 
                   <Link href='/Skills'>
