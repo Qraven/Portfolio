@@ -29,7 +29,8 @@ module.exports = {
       'darkPurple': '#1D1923',
       'pink': '#EDC0B4',
       'footer': '#E2DDDC',
-      'red': '#AA3D42'
+      'red': '#AA3D42',
+      'darkRed': '#8f2b2f'
     },
     fontFamily: {
       'roboto': ['"Roboto Slab"'],

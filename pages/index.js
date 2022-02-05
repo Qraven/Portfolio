@@ -23,7 +23,7 @@ export default function HomePage()
                 <div id = "contact" className="float-right mx-4 m-4 drop-shadow-xl hover:font-light hover:cursor-pointer transition-all hover:bounceNew">CONTACT</div>
               </Link>
 
-              <Link href='/aboutMe'>
+              <Link href='/about'>
                 <div id = "aboutMe" className="float-right mx-4 m-4 drop-shadow-xl hover:font-light hover:cursor-pointer hover:bounceNew">ABOUT ME</div>
               </Link>
 
@@ -50,15 +50,18 @@ export default function HomePage()
             </span>
 
             <span className="text-red text-6xl">
-              <a className="ml-20">Hi!<a className="text-footer text-opacity-30">&#59;</a></a>
+              <a className="ml-20">Hi!<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
               <br></br>
-              <a className="ml-20">It&#39;s a pleasure to meet you!<a className="text-footer text-opacity-30">&#59;</a></a>
+              <a className="ml-20">It&#39;s a pleasure to<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
+              <br></br>
+              <a className="ml-20">meet <b>you!</b><a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
               <br></br>
               <br></br>
-              <a className="ml-20">My name is Simon and I am<a className="text-footer text-opacity-30">&#59;</a></a>
+              <a className="ml-20">My name is <i>Simon</i><a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
               <br></br>
-              <a className="ml-20">a Backend Java Developer.<a className="text-footer text-opacity-30">&#59;</a></a>
+              <a className="ml-20">and I am a Backend<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
               <br></br>
+              <a className="ml-20">Java Developer.<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
               <br></br>
               <div className="border-l-4 h-14 border-solid border-pink border-opacity-30 ml-20 animate-blink"></div>
               <a className=" text-lg ml-14 text-footer text-opacity-30">&#125;</a>
@@ -73,7 +76,7 @@ export default function HomePage()
           </section>
         </span>
 
-        <footer className="absolute bottom-2 w-full h-4/12 text-sm text-footer text-opacity-50 bg-darkPurple shadow-xl">
+        <footer className="absolute bottom-2 w-full h-2/12 text-sm text-footer text-opacity-50 bg-darkPurple shadow-xl">
           <div className="p-6">
             <a className="m-2">This site was created by Szymon Roman using <b>Tailwind</b> and <b>Next.JS</b></a>
             <br></br>
