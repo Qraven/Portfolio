@@ -59,9 +59,9 @@ export default function skills()
               <br></br>
               <a className="ml-20">My name is <i>Simon</i><a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
               <br></br>
-              <a className="ml-20">and I am a Backend<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
+              <a className="ml-20">and I am an aspiring<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
               <br></br>
-              <a className="ml-20">Java Developer.<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
+              <a className="ml-20">Backend Java Developer.<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
               <br></br>
               <div className="border-l-4 h-14 border-solid border-pink border-opacity-30 ml-20 animate-blink"></div>
               <a className=" text-lg ml-14 text-footer text-opacity-30">&#125;</a>
@@ -72,6 +72,13 @@ export default function skills()
 
           <div className="border-l-4 h-3/4 border-solid border-pink border-opacity-30 float-left absolute left-1/2 bottom-32 rounded-lg"></div>
 
+          <section className="w-1/3 h-1/2 float-right absolute bottom-60 right-32 text-justify break-words font-light">
+            <a className="text-pink font-roboto font-regular text-5xl hover:text-opacity-75 hover:cursor-default">
+              My work mostly consists of personal projects. I am knowledgeable on the <a className="text-orange text-opacity-80">Java</a> language and the <a className=" text-green text-opacity-80">Spring Framework</a>.
+              <br></br><br></br>
+              I have some experience with frontend technologies, like <b>Next.js</b>, <b>React.js</b> and <b>TailwindCSS</b>.
+            </a>
+          </section>
           
         </span>
 

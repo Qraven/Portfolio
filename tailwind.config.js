@@ -30,7 +30,9 @@ module.exports = {
       'pink': '#EDC0B4',
       'footer': '#E2DDDC',
       'red': '#AA3D42',
-      'darkRed': '#8f2b2f'
+      'darkRed': '#8f2b2f',
+      'green': '#8FE381',
+      'orange': '#FFA500'
     },
     fontFamily: {
       'roboto': ['"Roboto Slab"'],

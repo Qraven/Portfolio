@@ -59,9 +59,9 @@ export default function about()
                 <br></br>
                 <a className="ml-20">My name is <i>Simon</i><a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
                 <br></br>
-                <a className="ml-20">and I am a Backend<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
+                <a className="ml-20">and I am an aspiring<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
                 <br></br>
-                <a className="ml-20">Java Developer.<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
+                <a className="ml-20">Backend Java Developer.<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
                 <br></br>
                 <div className="border-l-4 h-14 border-solid border-pink border-opacity-30 ml-20 animate-blink"></div>
                 <a className=" text-lg ml-14 text-footer text-opacity-30">&#125;</a>
@@ -71,7 +71,7 @@ export default function about()
 
               <div className="border-l-4 h-3/4 border-solid border-pink border-opacity-30 float-left absolute left-1/2 bottom-32 rounded-lg"></div>
 
-              <section className="w-1/3 h-1/2 float-right absolute bottom-60 right-32 text-justify break-words">
+              <section className="w-1/3 h-1/2 float-right absolute bottom-60 right-32 text-justify break-words font-light">
                 <a className="text-pink font-roboto font-regular text-5xl hover:text-opacity-75 hover:cursor-default">
                   I'm a young and aspiring <b>software developer</b>
                   <br></br>
