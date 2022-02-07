@@ -1,12 +1,17 @@
 import { Fragment } from "react/cjs/react.production.min";
 import Link from 'next/link'
 import Image from 'next/image'
+import Head from 'next/head'
 
 export default function skills()
 {
 
   return (
     <Fragment>
+      <Head>
+        <title>Skills</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="bg-purple w-full h-screen">
 
         <header className="h-1/6 overflow-hidden relative">
