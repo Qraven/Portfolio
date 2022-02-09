@@ -35,8 +35,8 @@ module.exports = {
       'orange': '#FFA500'
     },
     fontFamily: {
-      'roboto': ['"Roboto Slab"'],
-      'jetbrains': ['"JetBrains Mono"']
+      'roboto': ['"Roboto Slab"', 'serif'],
+      'jetbrains': ['"JetBrains Mono"', 'monospace']
     },
     extend: {}
   },
