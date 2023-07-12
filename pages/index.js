@@ -2,6 +2,8 @@ import { Fragment } from "react/cjs/react.production.min";
 import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head'
+import MojeLogo from '../public/LogoNoBg.png'
+import MainImage from '../public/mainImage.png'
 
 export default function HomePage()
 {
@@ -17,7 +19,7 @@ export default function HomePage()
         <header className="h-1/6 overflow-hidden relative">
           <Link href="/">
             <div className = 'float-left w-1/4 m-2 hover:cursor-pointer hover:animate-pulse'>
-              <Image src='/LogoNoBg.png' alt ='my logo' width={330} height={55}/>
+              <Image src={MojeLogo} alt ='my logo' width={600} height={100}/>
             </div>
           </Link>
         
@@ -54,17 +56,17 @@ export default function HomePage()
              <br></br>
             </span>
 
-            <span className="text-red text-6xl">
-              <a className="ml-20">Hi!<a className="text-footer text-opacity-30">&#59;</a></a>
+            <span className="text-red text-6xl ">
+              <a className="">Hi!<a className="text-footer text-opacity-30">&#59;</a></a>
               <br></br>
-              <a className="ml-20">It&#39;s a pleasure to meet you!<a className="text-footer text-opacity-30">&#59;</a></a>
+              <a className="">It&#39;s a pleasure to meet you!<a className="text-footer text-opacity-30">&#59;</a></a>
               <br></br>
               <br></br>
-              <a className="ml-20">My name is Simon and I am<a className="text-footer text-opacity-30">&#59;</a></a>
+              <a className="">My name is Simon and I am<a className="text-footer text-opacity-30">&#59;</a></a>
               <br></br>
-              <a className="ml-20">a Backend Java Developer.<a className="text-footer text-opacity-30">&#59;</a></a>
+              <a className="">a Backend Java Developer.<a className="text-footer text-opacity-30">&#59;</a></a>
               <br></br>
-              <a className="ml-20">Backend Java Developer.<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
+              <a className="">Backend Java Developer.<a className="text-footer text-opacity-30">&#59;</a></a>
               <br></br>
               <div className="border-l-4 h-14 border-solid border-pink border-opacity-30 ml-20 animate-blink"></div>
               <a className=" text-lg ml-14 text-footer text-opacity-30">&#125;</a>
@@ -72,14 +74,14 @@ export default function HomePage()
             
           </section>
 
-          <div className="border-l-4 h-3/4 border-solid border-pink border-opacity-30 float-left absolute left-1/2 bottom-32 rounded-lg"></div>
+          <hr className="border-l-4 h-2/3 border-solid border-pink border-opacity-30 float-left absolute left-1/2 bottom-32 rounded-lg"></hr>
 
-          <section className="w-1/4 float-right absolute bottom-16 right-52">
-            <Image src='/mainImage.png' alt ='programming emoji relative bottom-10' width={500} height={500}/>
+          <section className="w-1/4 float-right fixed bottom-12 right-2">
+            <Image src='/mainImage.png' alt ='programming emoji' width={1000} height={1000}/>
           </section>
         </span>
 
-        <footer className="absolute bottom-2 w-full h-2/12 text-sm text-footer text-opacity-50 bg-darkPurple shadow-xl">
+        <footer className="absolute bottom-0 w-full h-2/12 text-sm text-footer text-opacity-50 bg-darkPurple shadow-xl">
           <div className="p-6">
             <a className="m-2">This site was created by Szymon Roman using <b>Tailwind</b> and <b>Next.JS</b></a>
             <br></br>

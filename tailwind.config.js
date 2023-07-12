@@ -29,13 +29,6 @@ module.exports = {
       'darkPurple': '#1D1923',
       'pink': '#EDC0B4',
       'footer': '#E2DDDC',
-<<<<<<< HEAD
-      'red': '#AA3D42'
-    },
-    fontFamily: {
-      'roboto': ['"Roboto Slab"'],
-      'jetbrains': ['"JetBrains Mono"']
-=======
       'red': '#AA3D42',
       'darkRed': '#8f2b2f',
       'green': '#8FE381',
@@ -44,7 +37,6 @@ module.exports = {
     fontFamily: {
       'roboto': ['"Roboto Slab"', 'serif'],
       'jetbrains': ['"JetBrains Mono"', 'monospace']
->>>>>>> d91c22093cc42c049c931ec622b1ee2ef43c7d3f
     },
     extend: {}
   },
