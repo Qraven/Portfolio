@@ -2,7 +2,7 @@ import { Fragment } from "react/cjs/react.production.min";
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function AboutMe()
+export default function Aboutme()
 {
 
   return (
@@ -19,11 +19,11 @@ export default function AboutMe()
   
               <div className = 'text-pink font-roboto font-extralight text-5xl w-3/5 float-right overflow-hidden'>
 
-                <Link href='/contact/'>
+                <Link href='/Contact'>
                     <div id = "contact" className="float-right mx-4 m-4 drop-shadow-xl hover:font-light hover:cursor-pointer transition-all hover:bounceNew">CONTACT</div>
                   </Link>
 
-                  <Link href='/aboutMe/'>
+                  <Link href='/AboutMe'>
                     <div id = "aboutMe" className="float-right mx-4 m-4 drop-shadow-xl hover:font-light hover:cursor-pointer hover:bounceNew">ABOUT ME</div>
                   </Link>
 
@@ -31,7 +31,7 @@ export default function AboutMe()
                     <div id = "github" className="float-right mx-4 m-4 hover:font-light hover:cursor-pointer hover:bounceNew">GITHUB</div>
                   </Link>
 
-                  <Link href='/skills/'>
+                  <Link href='/Skills'>
                     <div id = "skills" className="float-right mx-4 m-4 hover:font-light hover:cursor-pointer hover:bounceNew">SKILLS</div>
                   </Link>
 
@@ -40,32 +40,31 @@ export default function AboutMe()
               <hr className=" w-11/12 border-2 border-solid border-pink border-opacity-30 rounded-lg absolute top-20 right-20 ml-12"></hr>
             </header>
 
-              <span className="w-full">
-                <section className="w-1/2 float-left relative bottom-10 animate-fade mt-14 font-jetbrains font-regular">
+            <span className="w-full">
+              <section className="w-1/2 float-left relative bottom-10 animate-fade mt-14 font-jetbrains font-regular">
                 <span className="text-footer text-opacity-30 ">
-                <a className=" text-lg ml-14 font-jetbrains">public void portolio()</a>
-                <br></br>
-                <a className=" text-lg ml-14">{`{`}</a>
-                <br></br>
-              </span>
+                  <a className=" text-lg ml-14 font-jetbrains">public void portolio()</a>
+                  <br></br>
+                  <a className=" text-lg ml-14">&#123;</a>
+                  <br></br>
+                </span>
 
-              <span className="text-red text-6xl">
-                <a className="ml-20">Hi!<a className="text-footer text-opacity-30">{`;`}</a></a>
-                <br></br>
-                <a className="ml-20">It`&#39;`s a pleasure to meet you!<a className="text-footer text-opacity-30">{`;`}</a></a>
-                <br></br>
-                <br></br>
-                <a className="ml-20">My name is Simon and I am<a className="text-footer text-opacity-30">{`;`}</a></a>
-                <br></br>
-                <a className="ml-20">a Backend Java Developer.<a className="text-footer text-opacity-30">{`;`}</a></a>
-                <br></br>
-                <br></br>
-                <div className="border-l-4 h-14 border-solid border-pink border-opacity-30 ml-20 animate-blink"></div>
-                <a className=" text-lg ml-14 text-footer text-opacity-30">{`}`}</a>
-              </span>
-            
+                <span className="text-red text-6xl">
+                  <a className="ml-20">Hi!<a className="text-footer text-opacity-30">&#59;</a></a>
+                  <br></br>
+                  <a className="ml-20">It&#39;s a pleasure to meet you!<a className="text-footer text-opacity-30">&#59;</a></a>
+                  <br></br>
+                  <br></br>
+                  <a className="ml-20">My name is Simon and I am<a className="text-footer text-opacity-30">&#59;</a></a>
+                  <br></br>
+                  <a className="ml-20">a Backend Java Developer.<a className="text-footer text-opacity-30">&#59;</a></a>
+                  <br></br>
+                  <br></br>
+                  <div className="border-l-4 h-14 border-solid border-pink border-opacity-30 ml-20 animate-blink"></div>
+                  <a className=" text-lg ml-14 text-footer text-opacity-30">&#125;</a>
+                </span>
+              
               </section>
-
 
               <div className="border-l-4 h-3/4 border-solid border-pink border-opacity-30 float-left absolute left-1/2 bottom-32 rounded-lg"></div>
 
@@ -78,13 +77,11 @@ export default function AboutMe()
               <div className="p-6">
                 <a className="m-2">This site was created by Szymon Roman using <b>Tailwind</b> and <b>Next.JS</b></a>
                 <br></br>
-                <a className="m-2">I`&#39;`ve used the fonts <b>Roboto Mono</b> and <b>JetBrains Mono</b></a>
+                <a className="m-2">I&#39;ve used the fonts <b>Roboto Mono</b> and <b>JetBrains Mono</b></a>
               </div>
               
             </footer>
         </div>
     </Fragment>
   )
-
-
 }

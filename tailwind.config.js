@@ -1,16 +1,18 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}"
   ],
+  webpack(config) {
+    config.infrastructureLogging = { debug: /PackFileCache/ }
+    return config;
+  },
   theme: {
     animation: {
-      fade: 'fadeIn 2s ease-in-out;',
-      blink: 'blink 1.5s step-start 0s infinite;'
+      fade: 'fadeIn 2s ease-in-out',
+      blink: 'blink 1.5s step-start 0s infinite'
     },
-
-    // that is actual animation
-    keyframes: theme => ({
+    keyframes: {
       fadeIn: {
         '0%': {opacity: '0'},
         '25%': {opacity: '0.3'},
@@ -21,7 +23,7 @@ module.exports = {
       blink: {
         '50%': {opacity: '0'}
       }
-    }),
+    },
     colors: {
       'purple': '#211C27',
       'darkPurple': '#1D1923',
@@ -29,15 +31,15 @@ module.exports = {
       'footer': '#E2DDDC',
       'red': '#AA3D42'
     },
-    textShadow: { // defaults to {}
-      'default': '0 2px 5px rgba(0, 0, 0, 0.5);',
-      'lg': '0 2px 10px rgba(0, 0, 0, 0.5);'
-    },
     fontFamily: {
       'roboto': ['"Roboto Slab"'],
-      'jetbrains': ['"JetBrains Mono']
+      'jetbrains': ['"JetBrains Mono"']
     },
     extend: {}
   },
-  plugins: [],
+  plugins: [
+    "postcss-import",
+    "tailwindcss",
+    "autoprefixer"
+  ],
 }
