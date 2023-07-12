@@ -18,13 +18,13 @@ export default function HomePage()
 
         <header className="h-1/6 overflow-hidden relative">
           <Link href="/">
-            <div className = 'float-left w-1/4 m-2 hover:cursor-pointer hover:animate-pulse'>
+            <div className = 'float-left w-1/4 mt-1 ml-5 hover:cursor-pointer hover:animate-pulse'>
               <Image src={MojeLogo} alt ='my logo' width={600} height={100}/>
             </div>
           </Link>
         
           
-          <div className = 'text-pink font-roboto font-extralight text-5xl w-3/5 float-right overflow-hidden'>
+          <div className = 'text-pink font-roboto font-extralight text-4xl w-3/5 float-right overflow-hidden mr-5 mt-1'>
 
             <Link href='/Contact'>
                 <div id = "contact" className="float-right mx-4 m-4 drop-shadow-xl hover:font-light hover:cursor-pointer transition-all hover:bounceNew">CONTACT</div>
@@ -47,37 +47,36 @@ export default function HomePage()
           <hr className=" w-11/12 border-2 border-solid border-pink border-opacity-30 rounded-lg absolute top-20 right-20 ml-12"></hr>
         </header>
 
-        <span className="w-full">
+        <span className="w-full relative left-10">
           <section className="w-1/2 float-left relative bottom-10 animate-fade mt-14 font-jetbrains font-regular">
-            <span className="text-footer text-opacity-30 ">
-             <a className=" text-lg ml-14 font-jetbrains">public void portolio()</a>
+            <span className="text-footer text-opacity-30 text-2xl">
+             <a className=" font-jetbrains">public void portolio()</a>
              <br></br>
-             <a className=" text-lg ml-14">&#123;</a>
+             <a className="">&#123;</a>
+             <br></br>
              <br></br>
             </span>
 
-            <span className="text-red text-6xl ">
-              <a className="">Hi!<a className="text-footer text-opacity-30">&#59;</a></a>
+            <span className="text-red text-5xl">
+              <a className="text-5xl">Hi!<a className="text-footer text-opacity-30">&#59;</a></a>
               <br></br>
-              <a className="">It&#39;s a pleasure to meet you!<a className="text-footer text-opacity-30">&#59;</a></a>
+              <a className="text-4xl">It&#39;s a pleasure to meet you!<a className="text-footer text-opacity-30">&#59;</a></a>
               <br></br>
               <br></br>
-              <a className="">My name is Simon and I am<a className="text-footer text-opacity-30">&#59;</a></a>
+              <a className="">My name is <span className="underline">Simon</span> and I am<a className="text-footer text-opacity-30">&#59;</a></a>
               <br></br>
-              <a className="">a Backend Java Developer.<a className="text-footer text-opacity-30">&#59;</a></a>
+              <a>a Backend Java Developer.<a className="text-footer text-opacity-30">&#59;</a></a>
               <br></br>
-              <a className="">Backend Java Developer.<a className="text-footer text-opacity-30">&#59;</a></a>
-              <br></br>
-              <div className="border-l-4 h-14 border-solid border-pink border-opacity-30 ml-20 animate-blink"></div>
-              <a className=" text-lg ml-14 text-footer text-opacity-30">&#125;</a>
+              <div className="border-l-4 h-12 border-solid border-pink border-opacity-30 animate-blink"></div>
+              <a className=" text-2xl text-footer text-opacity-30">&#125;</a>
             </span>
             
           </section>
 
-          <hr className="border-l-4 h-2/3 border-solid border-pink border-opacity-30 float-left absolute left-1/2 bottom-32 rounded-lg"></hr>
+          <hr className="border-l-4 h-2/3 border-solid border-pink border-opacity-30 float-left relative left-0 rounded-lg"></hr>
 
-          <section className="w-1/4 float-right fixed bottom-12 right-2">
-            <Image src='/mainImage.png' alt ='programming emoji' width={1000} height={1000}/>
+          <section className="w-1/4 float-right fixed bottom-16 right-40">
+            <Image src={MainImage} alt ='programming emoji' width={700} height={700}/>
           </section>
         </span>
 
@@ -87,7 +86,6 @@ export default function HomePage()
             <br></br>
             <a className="m-2">I&#39;ve used the fonts <b>Roboto Mono</b> and <b>JetBrains Mono</b></a>
           </div>
-          
         </footer>
       </div>      
     </Fragment>
