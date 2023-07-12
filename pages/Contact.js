@@ -1,12 +1,17 @@
 import { Fragment } from "react/cjs/react.production.min";
 import Link from 'next/link'
 import Image from 'next/image'
+import Head from 'next/head'
 
-export default function Contact()
+export default function contact()
 {
 
   return (
     <Fragment>
+      <Head>
+        <title>Contact</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
         <div className="bg-purple w-full h-screen">
 
             <header className="h-1/6 overflow-hidden relative">
@@ -23,12 +28,16 @@ export default function Contact()
                   <div id = "contact" className="float-right mx-4 m-4 drop-shadow-xl hover:font-light hover:cursor-pointer transition-all hover:bounceNew">CONTACT</div>
                 </Link>
 
+<<<<<<< HEAD
                 <Link href='/AboutMe'>
+=======
+                <Link href='/about'>
+>>>>>>> d91c22093cc42c049c931ec622b1ee2ef43c7d3f
                   <div id = "aboutMe" className="float-right mx-4 m-4 drop-shadow-xl hover:font-light hover:cursor-pointer hover:bounceNew">ABOUT ME</div>
                 </Link>
 
                 <Link href='https://github.com/Qraven/'>
-                  <div id = "github" className="float-right mx-4 m-4 hover:font-light hover:cursor-pointer hover:bounceNew">GITHUB</div>
+                  <a target="_blank" className="float-right mx-4 m-4 hover:font-light hover:cursor-pointer hover:bounceNew">GITHUB</a>
                 </Link>
 
                 <Link href='/Skills'>
@@ -49,6 +58,7 @@ export default function Contact()
                 <br></br>
               </span>
 
+<<<<<<< HEAD
               <span className="text-red text-6xl">
                 <a className="ml-20">Hi!<a className="text-footer text-opacity-30">&#59;</a></a>
                 <br></br>
@@ -63,14 +73,54 @@ export default function Contact()
                 <div className="border-l-4 h-14 border-solid border-pink border-opacity-30 ml-20 animate-blink"></div>
                 <a className=" text-lg ml-14 text-footer text-opacity-30">&#125;</a>
               </span>
+=======
+            <span className="text-red text-6xl">
+              <a className="ml-20">Hi!<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
+              <br></br>
+              <a className="ml-20">It&#39;s a pleasure to<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
+              <br></br>
+              <a className="ml-20">meet <b>you!</b><a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
+              <br></br>
+              <br></br>
+              <a className="ml-20">My name is <i>Simon</i><a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
+              <br></br>
+              <a className="ml-20">and I am an aspiring<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
+              <br></br>
+              <a className="ml-20">Backend Java Developer.<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
+              <br></br>
+              <div className="border-l-4 h-14 border-solid border-pink border-opacity-30 ml-20 animate-blink"></div>
+              <a className=" text-lg ml-14 text-footer text-opacity-30">&#125;</a>
+            </span>
+>>>>>>> d91c22093cc42c049c931ec622b1ee2ef43c7d3f
               
             </section>
 
             <div className="border-l-4 h-3/4 border-solid border-pink border-opacity-30 float-left absolute left-1/2 bottom-32 rounded-lg"></div>
 
-            <section className="w-1/4 float-right absolute bottom-16 right-52">
+            <section className="float-right absolute bottom-96 right-28 text-pink font-roboto font-light text-4xl">
+            <span>
+              <div className="">
+                <p className="float-left inline-block align-middle">
+                  <svg xmlns="http://www.w3.org/2000/svg" className=" h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </p>
+                <a className=" my-12 relative top-2">szymonroman.kontakt@gmail.com</a>
+              </div>
+
+
+              <br></br>
               
-            </section>
+              <div className="">
+                <p className="float-left inline-block align-middle">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokelinecap="round" strokelinejoin="round" strokewidth={1} d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
+                  </svg>
+                </p>
+                <Link href="https://github.com/Qraven"><a target="_blank" className=" my-12 relative top-2">GitHub</a></Link>
+              </div>
+            </span>          
+          </section>
           </span>
 
           <footer className="absolute bottom-2 w-full h-4/12 text-sm text-footer text-opacity-50 bg-darkPurple shadow-xl">
