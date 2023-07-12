@@ -28,11 +28,7 @@ export default function HomePage()
                 <div id = "contact" className="float-right mx-4 m-4 drop-shadow-xl hover:font-light hover:cursor-pointer transition-all hover:bounceNew">CONTACT</div>
               </Link>
 
-<<<<<<< HEAD
               <Link href='/AboutMe'>
-=======
-              <Link href='/about'>
->>>>>>> d91c22093cc42c049c931ec622b1ee2ef43c7d3f
                 <div id = "aboutMe" className="float-right mx-4 m-4 drop-shadow-xl hover:font-light hover:cursor-pointer hover:bounceNew">ABOUT ME</div>
               </Link>
 
@@ -59,7 +55,6 @@ export default function HomePage()
             </span>
 
             <span className="text-red text-6xl">
-<<<<<<< HEAD
               <a className="ml-20">Hi!<a className="text-footer text-opacity-30">&#59;</a></a>
               <br></br>
               <a className="ml-20">It&#39;s a pleasure to meet you!<a className="text-footer text-opacity-30">&#59;</a></a>
@@ -68,18 +63,6 @@ export default function HomePage()
               <a className="ml-20">My name is Simon and I am<a className="text-footer text-opacity-30">&#59;</a></a>
               <br></br>
               <a className="ml-20">a Backend Java Developer.<a className="text-footer text-opacity-30">&#59;</a></a>
-=======
-              <a className="ml-20">Hi!<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
-              <br></br>
-              <a className="ml-20">It&#39;s a pleasure to<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
-              <br></br>
-              <a className="ml-20">meet <b>you!</b><a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
-              <br></br>
-              <br></br>
-              <a className="ml-20">My name is <i>Simon</i><a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
-              <br></br>
-              <a className="ml-20">and I am an aspiring<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
->>>>>>> d91c22093cc42c049c931ec622b1ee2ef43c7d3f
               <br></br>
               <a className="ml-20">Backend Java Developer.<a className="text-footer text-opacity-20 text-5xl">&#59;</a></a>
               <br></br>
