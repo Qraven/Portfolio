@@ -32,11 +32,13 @@ module.exports = {
       'red': '#AA3D42',
       'darkRed': '#8f2b2f',
       'green': '#8FE381',
-      'orange': '#FFA500'
+      'orange': '#FFA500',
+      'darkPink': '#c99587'
     },
     fontFamily: {
       'roboto': ['"Roboto Slab"', 'serif'],
-      'jetbrains': ['"JetBrains Mono"', 'monospace']
+      'jetbrains': ['"JetBrains Mono"', 'monospace'],
+      'notoSans': ['"Noto Sans"', 'sans-serif']
     },
     extend: {}
   },
