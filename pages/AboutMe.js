@@ -46,8 +46,8 @@ export default function Aboutme()
           <hr className="w-11/12 border-2 border-solid border-pink border-opacity-30 rounded-lg absolute top-20 right-20 ml-12"></hr>
         </header>
 
-        <section className="h-1/2 w-full grid content-center text-darkPink mt-8">
-          <div className=" text-center text-4xl font-notoSans font-normal leading-normal">
+        <section className="">
+          <div className="h-1/2 w-1/2 grid content-center text-darkPink mt-24 text-center text-2xl font-notoSans font-normal leading-8 float-left">
             My name is <b>Simon Roman</b> and I was born in Poland.
             <br></br>
             I spend my free time on cybersecurity, video games,
@@ -61,6 +61,20 @@ export default function Aboutme()
             experience in this field and I'm currently working
             <br></br>
             for an English teaching school 'Bright'.
+          </div>
+
+          {/*Vertical Divider */}
+          <div className="bg-pink absolute left-1/2 -ml-0.5 w-0.5 h-2/3 float-left"></div>
+
+          <div className="float-left w-0.5 h-0.5 grid content-center text-darkPink relative left-0 mt-24 text-center text-2xl font-notoSans font-normal leading-8">
+            <div>
+              TIMELINE
+            </div>
+            <div>
+              <ul className="list-disc">
+                <li></li>
+              </ul>
+            </div>
           </div>
         </section>
 
