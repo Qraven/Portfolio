@@ -47,32 +47,39 @@ export default function Aboutme()
         </header>
 
         <section className="">
-          <div className="h-1/2 w-1/2 grid content-center text-darkPink mt-24 text-center text-2xl font-notoSans font-normal leading-8 float-left">
-            My name is <b>Simon Roman</b> and I was born in Poland.
-            <br></br>
-            I spend my free time on cybersecurity, video games,
-            <br></br>
-            programming and listening to music.
-            <br></br>
-            As my main passion, I love teaching English to kids
-            <br></br>
-            and adults. I have over 5 years of person-to-person
-            <br></br>
-            experience in this field and I'm currently working
-            <br></br>
-            for an English teaching school 'Bright'.
-          </div>
+            <div className="h-2/3 w-1/2 grid content-center text-darkPink mt-24 text-center text-2xl font-notoSans font-normal leading-8 float-left">
+              My name is <b>Simon Roman</b> and I was born in Poland.
+              <br></br>
+              I spend my free time on cybersecurity, video games,
+              <br></br>
+              programming and listening to music.
+              <br></br>
+              As my main passion, I love teaching English to kids
+              <br></br>
+              and adults. I have over 4 years of person-to-person
+              <br></br>
+              experience in this field and I'm currently working
+              <br></br>
+              for an English teaching school 'Bright'.
+              <br></br><br></br><br></br>
+            </div>
+
 
           {/*Vertical Divider */}
           <div className="bg-pink absolute left-1/2 -ml-0.5 w-0.5 h-2/3 float-left"></div>
 
-          <div className="float-left w-0.5 h-0.5 grid content-center text-darkPink relative left-0 mt-24 text-center text-2xl font-notoSans font-normal leading-8">
-            <div>
-              TIMELINE
+          <div className="float-left w-1/3 h-2/3 grid content-center text-darkPink relative left-44 mt-16 text-center text-2xl font-notoSans font-normal leading-relaxed">
+            <div className="text-3xl">
+              TIMELINE<br></br>
             </div>
             <div>
               <ul className="list-disc">
-                <li></li>
+              <br></br>
+                <li><u><i>08.09.2019</i></u> Started attentinding <b>Zespół Szkół Łączności</b></li>
+                <li><u><i>09.2019</i></u> Started tutoring English</li>
+                <li><u><i>11.2019</i></u> Got my English <b>C1 First Certificate</b></li>
+                <li><u><i>01.2021</i></u> Finished the course 'Introduction to cybersecurity'</li>
+                <li><u><i>09.2023</i></u> Started working for Bright</li>
               </ul>
             </div>
           </div>
