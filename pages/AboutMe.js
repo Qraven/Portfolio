@@ -74,7 +74,7 @@ export default function Aboutme()
             </div>
             <div>
               <ul className="list-disc">
-              <br></br>
+                <br></br>
                 <li><u><i>08.09.2019</i></u> Started attentinding <b>Zespół Szkół Łączności</b></li>
                 <li><u><i>09.2019</i></u> Started tutoring English</li>
                 <li><u><i>11.2019</i></u> Got my English <b>C1 First Certificate</b></li>
