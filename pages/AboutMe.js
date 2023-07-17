@@ -79,7 +79,7 @@ export default function Aboutme()
                 <li><u><i>09.2019</i></u> Started tutoring English</li>
                 <li><u><i>11.2019</i></u> Got my English <b>C1 First Certificate</b></li>
                 <li><u><i>01.2021</i></u> Finished the course 'Introduction to cybersecurity'</li>
-                <li><u><i>09.2023</i></u> Started working for Bright</li>
+                <li><u><i>09.2023</i></u> Started working for Bright</li> 
               </ul>
             </div>
           </div>
